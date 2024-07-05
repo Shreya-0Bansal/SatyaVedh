@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="next_btn" />
+    <drawable name="skip_icon" />
+    <drawable name="ellipse1" />
+    <drawable name="ellipse2" />
+    <drawable name="button_background" />
+    <drawable name="start" />
+</resources>

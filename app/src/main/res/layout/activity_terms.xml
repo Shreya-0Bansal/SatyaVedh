@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/slate">
+
+    <!-- Header -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bn"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/header_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp">
+
+                <!-- Title -->
+                <ImageView
+                    android:id="@+id/app_logo"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/lg"/>
+
+                <TextView
+                    android:id="@+id/title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/app_name"
+                    android:fontFamily="cursive"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- Photo -->
+            <ImageView
+                android:id="@+id/photo_image"
+                android:layout_width="match_parent"
+                android:layout_height="361dp"
+                android:adjustViewBounds="true"
+                android:padding="16dp"
+                android:background="@color/blue"
+                android:scaleType="centerCrop"
+                android:src="@drawable/terms" />
+
+            <!-- Terms and conditions -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Terms and Conditions"
+                        android:layout_gravity="center"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/karma_bold"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/terms_conditions_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/karma_bold"
+                        android:text="@string/condition"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        android:lineSpacingExtra="8dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
+                        />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- BottomAppBar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:elevation="2dp"
+        app:itemIconSize="60dp"
+        app:itemRippleColor="@color/lavender"
+        app:labelVisibilityMode="unlabeled"
+        android:background="@color/blue"
+        app:menu="@menu/bottom_menu" />
+
+</RelativeLayout>

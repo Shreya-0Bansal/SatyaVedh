@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SatyaVedh</string>
+    <string name="let_get_started" />
+    <string name="skip_btn" />
+    <string name="startDesc">Welcome to our sanctuary of anonymity, where every voice resonates freely, contributing to the collective symphony of change, forging a brighter tomorrow together.</string>
+    <string name="screen1desc">Speak out. We listen. Your complaints, our action.</string>
+    <string name="screen1">COMPLAINTS</string>
+    <string name="screen2desc">Your voice, our guide. Share feedback, shape our future. </string>
+    <string name="screen3desc">Ideas ignite change. Share yours, spark improvement.</string>
+    <string name="screen2">FEEDBACK</string>
+    <string name="screen3">SUGGESTIONS</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="terms">Terms of Service</string>
+    <string name="contact">Contact Us</string>
+    <string name="Welcome">Welcome to SatyaVedh – your platform for citizen empowerment and engagement!</string>
+    <string name="Name" />
+    <string name="condition">"1. These Terms and Conditions govern your use of the Anonymous Complaint, Feedback, and Suggestion Application SatyaVedh provided by us. By accessing or using the App, you agree to comply with these Terms and Conditions.\n
+2. The App is intended for use by individuals who are at least 18 years old. If you are under 18, you may only use the App with the involvement of a parent or guardian.\n
+3. Users are prohibited from submitting content that violates any laws or regulations, infringes upon the rights of others, or contains offensive or inappropriate material.\n
+4. Users are responsible for ensuring the security of their device and any information stored on it.\n
+5. Users must use the App in compliance with all applicable laws and regulations.\n
+6. Users are responsible for reviewing the Terms and Conditions periodically to ensure compliance with the most current version.\n
+7. If you have any questions or concerns about these Terms and Conditions, please contact us.\n
+By using the App, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you do not agree to these Terms and Conditions, you may not use the App."</string>
+    <string name="Mail" />
+    <string name="Phone" />
+    <string name="Submit" />
+</resources>

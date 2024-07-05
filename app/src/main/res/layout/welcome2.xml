@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/slate"
+    app:flow_horizontalAlign="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="70dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/we"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/karma_bold"
+        android:text="EXPLORE SATYAVEDH"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="8sp"
+        android:fontFamily="@font/karma_bold"
+        android:text="@string/startDesc"
+        android:textAlignment="center"
+        android:textColor="@color/lavender"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Get Started"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/karma_bold"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        app:cornerRadius="20dp"/>
+
+
+</LinearLayout>
