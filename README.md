@@ -1,0 +1,1 @@
+Satyavedh is a mobile application designed to empower users to submit anonymous complaints, feedback, and suggestions without the risk of disclosing their identity. Developed using Java, this app ensures user privacy while facilitating transparent communication and improving services through user inputs.
